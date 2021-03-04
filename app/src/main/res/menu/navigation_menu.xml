@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@mipmap/baseline_home_black_24dp"
+        android:id="@+id/main"
+        android:title="Главная" />
+    <item
+        android:icon="@mipmap/baseline_leaderboard_black_24dp"
+        android:id="@+id/statistics"
+        android:title="Статистика" />
+    <item
+        android:icon="@mipmap/baseline_settings_black_24dp"
+        android:id="@+id/settings"
+        android:title="Настройки" />
+    <item
+        android:icon="@mipmap/baseline_logout_black_24dp"
+        android:id="@+id/exit"
+        android:title="Выйти" />
+</menu>
