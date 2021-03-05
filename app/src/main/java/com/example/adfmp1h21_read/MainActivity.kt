@@ -52,7 +52,18 @@ class MainActivity : Navigation() {
             intent.putExtra("title", button4.text.toString())
             startActivity(intent)
         }
-
+        button5.setOnClickListener {
+            intent = Intent(this, Eyes::class.java)
+            startActivity(intent)
+        }
+        button6.setOnClickListener {
+            intent = Intent(this, FourSides::class.java)
+            startActivity(intent)
+        }
+        button7.setOnClickListener {
+            intent = Intent(this, HelloTree::class.java)
+            startActivity(intent)
+        }
 
         button9.setOnClickListener {
             var num = (buttons.indices).random()
